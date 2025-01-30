@@ -132,7 +132,6 @@
    margin-left: 15%;
   padding: 10px;
   border-radius: 5px;
-  
  }
  .first-img>h3{
   padding-bottom: 10px;
@@ -285,6 +284,64 @@
   color: #919191;
   font-family: "Open Sans", serif;
 }
+.cards{
+  width: 100%;
+  height: 40vh;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  bottom: 43%;
+}
+.card1{
+  width: 19.5%;
+  height: 100%;
+  background-color: #313131;
+}
+.card1>img{
+  width: 100%;
+  height: 60%;
+  background-color: #525252;
+}
+.card1>h3{
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.card2{
+  width: 19.5%;
+  height: 120%;
+  background-color: #313131;
+}
+.card2>img{
+  width: 100%;
+  height: 60%;
+  background-color: #525252;
+}
+.card2>h3{
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 10px;
+  word-spacing: 90px;
+}
+.card2>p{
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  padding-top: 8px;
+  padding-left: 7px;
+}
+.card2 span{
+  background-color: #9eb7b8;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+/* 
 .section {
   display: flex;
   justify-content: center;
@@ -346,12 +403,12 @@
 }
 .info{
   background-color: #aaa;
-}
-/* .last-sec{
+} */
+.last-sec{
   position: relative;
   bottom: 29%;
-} */
-.last-sec-1{
+}
+ .last-sec-1{
   background-color: #E3350D;
   width: 25%;
   height: 48vh;
@@ -451,7 +508,7 @@
 .what{
   display: inline-block;
   font-family:  "Open Sans", serif;
-/* background-color: #6a0dad; */
+/* background-color: #6a0dad;  */
 color: #8c8989;
 width: 280px;
 position: relative;
@@ -529,6 +586,26 @@ left: 10%;
   position: relative;
   bottom: 55%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   width: 100vw;
   height: 700px;
